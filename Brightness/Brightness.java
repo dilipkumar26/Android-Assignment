@@ -44,7 +44,7 @@ public class Brightness extends AppCompatActivity {
     public void askPermission(Context c){
         if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.M){
             if(Settings.System.canWrite(c)){
-                //you have permission to write settings
+               
             }
             else{
                 Intent i = new Intent(Settings.ACTION_MANAGE_WRITE_SETTINGS);
