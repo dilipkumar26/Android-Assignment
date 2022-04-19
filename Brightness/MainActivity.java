@@ -10,12 +10,12 @@ import android.provider.Settings;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
-public class Brightness extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.brightness);
+        setContentView(R.layout.activity_main);
         askPermission(this);
 
         SeekBar seekBar = findViewById(R.id.seekbar);
